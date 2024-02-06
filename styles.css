@@ -5,3 +5,11 @@ p{
 h1{
     color: blue;
 }
+
+.texte{
+    text-decoration: line-through;
+}
+
+#image{
+    width:200px;
+}
