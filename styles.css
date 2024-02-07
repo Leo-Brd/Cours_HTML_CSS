@@ -1,3 +1,8 @@
+body{
+    background-image: url('image_back.png');
+    background-size: 15%;
+}
+
 p{
     color:red;
 }
