@@ -8,53 +8,61 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 class="titre"> Je suis un titre </h1>
-    <p class="p" class="texte"> Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content</p>
-    <p class="p" id="p_2">Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content</p>
+    <div class="container">
+        <div class="item">
+            <h1 class="titre"> Je suis un titre </h1>
+            <p class="p" class="texte"> Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content</p>
+            <p class="p" id="p_2">Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content</p>
+        </div>
 
-    <a href="https://www.estiam.education/">Lien vers le site de l'Estiam </a> <br><br>
-    <img id="image" alt="luffy" src="image.png">
+        <div class="item">
+            <a href="https://www.estiam.education/">Lien vers le site de l'Estiam </a> <br><br>
+            <img id="image" alt="luffy" src="image.png">
+        </div>
 
-    <form>
-        <h2>Formulaire :</h2>
-        <p>Renseignez votre nom :</p>
-        <input type="text" name="Nom"><br>
-        <p>Renseignez votre email :</p>
-        <input type="email" name="E-mail"><br><br>
-        <textarea>Ecrivez votre message ici ...</textarea><br>
+        <div class="item">
+            <form>
+                <h2>Formulaire :</h2>
+                <p>Renseignez votre nom :</p>
+                <input type="text" name="Nom"><br>
+                <p>Renseignez votre email :</p>
+                <input type="email" name="E-mail"><br><br>
+                <textarea>Ecrivez votre message ici ...</textarea><br>
 
-        <p>Renseignez la date :</p>
-        <input type="date" name="Date"><br>
-        <p>Renseignez votre numéro de telephone :</p>
-        <input type="tel" name="Telephone"><br><br>
+                <p>Renseignez la date :</p>
+                <input type="date" name="Date"><br>
+                <p>Renseignez votre numéro de telephone :</p>
+                <input type="tel" name="Telephone"><br><br>
 
-        <label for="choix">Comment avez vous entendu parler de nous ?</label>
-        <select id="choix">
-            <option>Je n'en ai jamais entendu parler</option>
-            <option>Sur les réseaux sociaux</option>
-            <option>Par le bouche à oreille</option>
-            <option>A la télévision</option>
-        </select>
+                <label for="choix">Comment avez vous entendu parler de nous ?</label>
+                <select id="choix">
+                    <option>Je n'en ai jamais entendu parler</option>
+                    <option>Sur les réseaux sociaux</option>
+                    <option>Par le bouche à oreille</option>
+                    <option>A la télévision</option>
+                </select>
 
-        <p>Etes-vous majeur ?</p>
-        <input type="radio" id="oui">
-        <label for="oui">Oui</label><br>
-        <input type="radio" id="non">
-        <label for="non">Non</label>
+                <p>Etes-vous majeur ?</p>
+                <input type="radio" id="oui">
+                <label for="oui">Oui</label><br>
+                <input type="radio" id="non">
+                <label for="non">Non</label>
 
-        <p>De quels appareils disposez-vous à votre domicile ?</p>
-        <input type="checkbox" id="pc">
-        <label for="pc">Ordinateur</label><br>
-        <input type="checkbox" id="tv">
-        <label for="tv">Télévision</label><br>
-        <input type="checkbox" id="tablette">
-        <label for="tablette">Tablette</label><br>
-        <input type="checkbox" id="imprimante">
-        <label for="imprimante">Imprimante</label><br>
+                <p>De quels appareils disposez-vous à votre domicile ?</p>
+                <input type="checkbox" id="pc">
+                <label for="pc">Ordinateur</label><br>
+                <input type="checkbox" id="tv">
+                <label for="tv">Télévision</label><br>
+                <input type="checkbox" id="tablette">
+                <label for="tablette">Tablette</label><br>
+                <input type="checkbox" id="imprimante">
+                <label for="imprimante">Imprimante</label><br>
 
-        <input type="submit" id="submit">
-        <label for="submit"></label>
-    </form>
+                <input type="submit" id="submit">
+                <label for="submit"></label>
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
