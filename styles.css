@@ -1,9 +1,6 @@
 body{
     background-image: url('image_back.png');
     background-size: 100%;
-}
-
-.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,13 +9,8 @@ body{
 }
 
 .item{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 60px;
+    flex-grow: 1;
+    flex:1;
 }
 
 p{
@@ -64,4 +56,29 @@ form{
 
 label{
     color: aliceblue;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+}
+
+main{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+}
+
+.choix{
+    flex-grow: 0.5;
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
 }

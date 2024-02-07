@@ -9,18 +9,27 @@
 </head>
 <body>
     <div class="container">
-        <div class="item">
+        <header class="item">
             <h1 class="titre"> Je suis un titre </h1>
+        </header>
+
+        <nav class="items">
+            <div class="choix" id="choix_1">
+                <p>Page Principale</p>
+            </div>
+            <div class="choix" id="choix_2">
+                <p>Page secondaire</p>
+            </div>
+        </nav>
+
+        <main class="item">
             <p class="p" class="texte"> Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content  Je suis un paragraphe et je suis content</p>
             <p class="p" id="p_2">Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content  Je suis un deuxième paragraphe et je suis pas content</p>
-        </div>
-
-        <div class="item">
             <a href="https://www.estiam.education/">Lien vers le site de l'Estiam </a> <br><br>
             <img id="image" alt="luffy" src="image.png">
-        </div>
+        
 
-        <div class="item">
+        
             <form>
                 <h2 id="titre_form">Formulaire :</h2>
                 <p>Renseignez votre nom :</p>
@@ -61,7 +70,11 @@
                 <input type="submit" id="submit">
                 <label for="submit"></label>
             </form>
-        </div>
+        </main>
+
+        <footer class="items">
+            <p>footer</p>
+        </footer>
     </div>
 
     <script src="script.js"></script>
