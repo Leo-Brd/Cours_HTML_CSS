@@ -74,6 +74,7 @@ main{
 footer{
     text-align: center;
     height: 50px;
+    background-color: black;
 }
 
 .choix{
@@ -81,4 +82,12 @@ footer{
     font-size: large;
     font-weight: 200;
     text-align: center;
+}
+
+#choix_1:hover{
+    background-color: black;
+}
+
+#choix_2:hover{
+    background-color: black;
 }
