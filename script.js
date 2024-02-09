@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // Exercice Test
+/*
 let age = 25;
 const name = 'Alice';
 
@@ -29,8 +30,29 @@ while(age != 0){
     console.log(age);
     age -= 1;
 }
+*/
+
+// --------------------------------------------------------------------------------------
+// EXOS FONDAMENTAUX
 
 
-// Exos Fondamentaux
+// Exercice 1
 
+console.log("EXERCICE 1 \n")
+function Somme(a, b){
+    return a + b;
+}
+console.log(Somme(5, 10));
+
+for (let i=0; i<11; i++){
+    console.log(i)
+}
+
+for (let i=0; i<11; i++){
+  if (i%2 == 0){
+    console.log(i)
+  }
+}
+
+// Exercice 2
 
